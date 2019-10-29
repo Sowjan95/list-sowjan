@@ -2,11 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-
-struct node{
-  int i;
-  struct node *next;
-};
+#include "header.h"
+#include "functions.c"
 
 int main(){
   printf("Printing random list:\n");
