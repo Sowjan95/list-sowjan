@@ -1,4 +1,3 @@
-//int main();
 struct node * create_list();
 void print_list(struct node *current);
 struct node * insert_front(struct node *list, int x);
